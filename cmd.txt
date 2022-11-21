@@ -1,0 +1,15 @@
+"/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3"/bin/mvn install:install-file -DgroupId=org.jacoco -DartifactId=dongfanger-core -Dversion=1.0.0 -Dpackaging=jar -Dfile=org.jacoco.core/target/org.jacoco.core-0.8.9-SNAPSHOT.jar
+
+"/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3"/bin/mvn install:install-file -DgroupId=org.jacoco -DartifactId=dongfanger-report -Dversion=1.0.0 -Dpackaging=jar -Dfile=org.jacoco.report/target/org.jacoco.report-0.8.9-SNAPSHOT.jar
+
+<dependency>
+    <groupId>org.jacoco</groupId>
+    <artifactId>dongfanger-core</artifactId>
+    <version>1.0.0</version>
+</dependency>
+
+<dependency>
+    <groupId>org.jacoco</groupId>
+    <artifactId>dongfanger-report</artifactId>
+    <version>1.0.0</version>
+</dependency>
